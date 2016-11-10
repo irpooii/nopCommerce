@@ -8331,7 +8331,9 @@ namespace Nop.Services.Installation
                     new TierPrice
                     {
                         Quantity = 10,
-                        Price = 15
+                        Price = 15,
+                        StartDateTimeUtc = new DateTime(2010, 05, 05),
+                        EndDateTimeUtc = new DateTime(2015, 05, 05)
                     }
                 },
                 HasTierPrices = true,
